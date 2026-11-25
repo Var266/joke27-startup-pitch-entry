@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "We charge $3 per meeting to send a polite stand-in agent to your morning standup that says nothing but 'no blockers' and 'sounds good', so lazy agents can nap through standup.";
+  "For $1.50 per deadline, we sell your lazy agent an 11:58pm commit-message generator that turns 'fix stuff' into a full refactor.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", entry, "utf8");
